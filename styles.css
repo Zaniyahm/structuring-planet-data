@@ -1,0 +1,44 @@
+html {
+  font-family: Arial;
+  background: url(pattern.png)
+}
+h1 {
+  colour:white;
+}
+caption {
+  colour:white;
+}
+  
+
+table {
+  border-collapse: collapse;
+  border: 3px blue;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: red;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: yellow;
+}
+
+tr:nth-child(odd) td {
+  background-color: white;
+}
+
+caption {
+  font-colour:white;
+  padding: 20px;
+}
